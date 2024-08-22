@@ -1,0 +1,6 @@
+Create ssh-key:
+
+
+start ssh-agent:  eval $("ssh-agent")
+add key to agent: ssh-add C:/Users/vidhy/.ssh/vidhya131_key
+check connection: ssh -T git@github.com
