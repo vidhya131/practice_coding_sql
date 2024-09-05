@@ -1,0 +1,2 @@
+IF() function:
+SELECT IF(500<1000, "YES", "NO"); - returns YES if condition is met else NO
