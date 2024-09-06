@@ -1,2 +1,5 @@
 IF() function:
 SELECT IF(500<1000, "YES", "NO"); - returns YES if condition is met else NO
+
+replace nulls with some value:
+COALESCE(column_name, 0)  -> if not null return 0
