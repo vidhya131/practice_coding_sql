@@ -28,6 +28,7 @@ class Solution:
                 m2[s[l]] = m2.get(s[l])-1
                 if m2[s[l]] == 0:
                     del m2[s[l]]
+                char = s[l]
                 l += 1
             # move towards right
             r = r+1
