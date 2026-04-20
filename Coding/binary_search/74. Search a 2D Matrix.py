@@ -17,6 +17,7 @@ class Solution:
         return False
 
     def get(self, index, rows, cols, matrix):
+        ## key logic
         r = index//cols
         c = index%cols
         return matrix[r][c]
